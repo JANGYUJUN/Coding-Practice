@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로필 이지미 만들기</title>
+    <style>
+        .container {
+            border: 3px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .container img {
+            width: 100%; /*이미지를 container 영역에 가득 채우겠다라는 의미*/
+        }
+
+        .container2 {
+            border: 3px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .container2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/irangi_0.png" alt="hello">
+    </div>
+    <div class="container2">
+        <img src="./images/thumb_1.png" alt="hello">
+    </div>
+</body>
+</html>
